@@ -1,0 +1,72 @@
+body {
+  width: 320px;
+  margin: 0;
+}
+
+#my-name {
+  margin: 16px;
+}
+
+.fa-xl { font-size: 25px; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-image: url(assets/images/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  background-size: 111px 74px;
+  background-color: #fff;
+  margin: 0;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  align-self: end;
+  margin: 19px 16px 0 0;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.section-header {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1a2236;
+  margin: 0;
+}
+
+.my-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1a2236;
+  height: 50px;
+  width: 288px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  text-justify: distribute;
+}
+
+.notes {
+  width: 288px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1a2236;
+}
