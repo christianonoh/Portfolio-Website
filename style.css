@@ -70,3 +70,59 @@ body {
   letter-spacing: -0.01em;
   color: #1a2236;
 }
+
+/* Works section  */
+.project { background-color: #1a2236; }
+
+.project-img {
+  width: 320px;
+  height: 186px;
+  margin: 0;
+}
+
+.project-name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+  color: #fff;
+}
+
+.project-tools {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.project-tool {
+  background-color: #98dede;
+  padding: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  margin: 5px;
+}
+
+.see-project {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+/* Trying to fix the container issue in projects  */
+.project header,
+.project-tools,
+.see-project { margin-left: 20px; }
