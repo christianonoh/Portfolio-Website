@@ -1,6 +1,13 @@
 body {
   width: 320px;
+  margin: 0;
 }
+
+#my-name {
+  margin: 16px;
+}
+
+.fa-xl { font-size: 25px; }
 
 .wrapper {
   display: flex;
@@ -9,34 +16,24 @@ body {
   background-repeat: no-repeat;
   background-size: 111px 74px;
   background-color: #fff;
-  margin: 0 auto;
-  padding: 20px;
+  margin: 0;
   align-items: center;
 }
 
-nav {
+.main {
   display: flex;
-  align-self: flex-end;
-  padding: 10px, 0, 10px, 0;
+  align-self: end;
+  margin: 19px 16px 0 0;
 }
 
-nav img {
-  width: 20px;
-  height: 14px;
-  left: 284px;
-  top: 19px;
-}
-
-.intro {
+.section-title {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px;
 }
 
-header { margin: 16px; }
-
-header h1 {
+.section-header {
   font-family: 'Playfair Display', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -46,17 +43,13 @@ header h1 {
   margin: 0;
 }
 
-button {
+.my-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #1a2236;
-  padding: 15px;
   height: 50px;
   width: 288px;
-  border-radius: 0;
-  flex: 0.5;
-  border: none;
-}
-
-button a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -64,10 +57,10 @@ button a {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  text-decoration: none;
+  text-justify: distribute;
 }
 
-header p {
+.notes {
   width: 288px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -76,8 +69,4 @@ header p {
   line-height: 21px;
   letter-spacing: -0.01em;
   color: #1a2236;
-}
-
-.project-img {
-  margin-top: 30px;
 }
