@@ -1,0 +1,84 @@
+body {
+  width: 320px;
+  background-image: url(image_geometry_1.svg);
+  background-repeat: no-repeat;
+  background-size: 111px 74px;
+  background-color: #E5E5E5;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  /* border: 2px solid red; */
+  align-self: flex-end;
+  padding: 10px, 0px, 10px 0px;
+}
+
+nav img {
+  width: 20px;
+  height: 14px;
+  left: 284px;
+  top: 19px;
+}
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 5px solid blue; */
+  padding: 50px;
+}
+
+header h1 {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+  color: #1A2236;
+}
+
+
+button {
+  background-color: #1A2236;
+  padding: 15px;
+  height: 50px;
+  width: 288px;
+  border-radius: 0px;
+  /* border: 5px solid red; */
+  flex: 0.5;
+  border: none;
+
+}
+
+button a {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  
+}
+
+header p {
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: #1A2236;
+} 
+
