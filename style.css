@@ -16,7 +16,7 @@ body {
   background-image: url(assets/images/image_geometry_1.svg);
   background-repeat: no-repeat;
   background-size: 111px 74px;
-  background-color: #fff;
+  background-color: rgb(231, 197, 197);
   margin: 0;
   align-items: center;
 }
@@ -135,24 +135,25 @@ body {
   height: 289px;
   justify-content: center;
   margin-top: 20px;
-  /* border: 3px solid red; */
 }
 
-.bg-blue { 
+.bg-blue {
   background-color: #1c528a;
   background-image: url(assets/images/ic_languages_mob.svg);
   background-repeat: no-repeat;
   background-size: 102px 102px;
   background-position: 100% 100%;
 }
-.bg-red { 
+
+.bg-red {
   background-color: #e2505c;
   background-image: url(assets/images/Group\ 18.png);
   background-repeat: no-repeat;
   background-size: 102.22px 102.22px;
   background-position: 100% 100%;
 }
-.bg-yellow { 
+
+.bg-yellow {
   background-color: #febf52;
   background-image: url(assets/images/ic_skills.png);
   background-repeat: no-repeat;
@@ -180,7 +181,68 @@ body {
   list-style-position: inside;
 }
 
-.about-info ul, .about-title {
+.about-info ul,
+.about-title {
   margin-left: 30px;
   padding-left: 0;
+}
+
+.contact {
+  background-image: url(assets/images/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  background-size: 111px 74px;
+  align-self: flex-start;
+}
+
+.contact-form {
+  width: 288px;
+  margin: 16px;
+}
+
+.contact-form input { margin-bottom: 10px; }
+
+.contact-form textarea {
+  resize: none;
+  height: 112px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+
+/* Footer  */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1a2236;
+  height: 150px;
+}
+
+.footer p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #92dcdc;
+  margin-left: 16px;
+}
+
+.footer p i {
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.socials {
+  display: flex;
+  color: #fff;
+  height: 24px;
+  justify-content: space-around;
+  font-size: 24px;
 }
