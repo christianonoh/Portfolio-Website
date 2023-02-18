@@ -126,3 +126,60 @@ body {
 .project header,
 .project-tools,
 .see-project { margin-left: 20px; }
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  width: 289px;
+  height: 289px;
+  justify-content: center;
+  margin-top: 20px;
+  /* border: 3px solid red; */
+}
+
+.bg-blue { 
+  background-color: #1c528a;
+  background-image: url(assets/images/ic_languages_mob.svg);
+  background-repeat: no-repeat;
+  background-size: 102px 102px;
+  background-position: 100% 100%;
+}
+.bg-red { 
+  background-color: #e2505c;
+  background-image: url(assets/images/Group\ 18.png);
+  background-repeat: no-repeat;
+  background-size: 102.22px 102.22px;
+  background-position: 100% 100%;
+}
+.bg-yellow { 
+  background-color: #febf52;
+  background-image: url(assets/images/ic_skills.png);
+  background-repeat: no-repeat;
+  background-size: 102px 102px;
+  background-position: 100% 100%;
+}
+
+.about-title {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.about-info li {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+  color: #fff;
+  list-style-position: inside;
+}
+
+.about-info ul, .about-title {
+  margin-left: 30px;
+  padding-left: 0;
+}
