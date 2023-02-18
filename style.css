@@ -10,8 +10,9 @@ body {
 .fa-xl { font-size: 25px; }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: auto auto auto auto;
   background-image: url(assets/images/image_geometry_1.svg);
   background-repeat: no-repeat;
   background-size: 111px 74px;
@@ -22,7 +23,7 @@ body {
 
 .main {
   display: flex;
-  align-self: end;
+  justify-content: end;
   margin: 19px 16px 0 0;
 }
 
