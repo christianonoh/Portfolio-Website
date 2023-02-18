@@ -24,6 +24,7 @@ body {
 .main {
   display: flex;
   justify-content: end;
+  align-self: end;
   margin: 19px 16px 0 0;
 }
 
