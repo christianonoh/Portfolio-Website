@@ -1,4 +1,7 @@
-* { margin: 0; }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .wrapper {
   min-width: 375px;
@@ -56,6 +59,7 @@
   justify-content: center;
   background-color: #1a2236;
   height: 10vw;
+  max-height: 4rem;
   width: 80%;
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -196,28 +200,46 @@
   background-color: #f9f9f4;
 }
 
+.contact header { margin-top: 15vw; }
+
 .contact-form {
+  padding: 30px 10%;
+}
+
+.contact-form ul {
   display: flex;
   flex-direction: column;
-  margin: 1rem auto;
-  width: 100%;
-  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
 }
 
-.contact-form input { margin-bottom: 10px; }
-
-.contact-form textarea {
-  resize: none;
-  height: 112px;
+.form-items {
+  display: flex;
 }
 
-.contact-form input,
-.contact-form textarea {
-  box-sizing: border-box;
-  width: 80%;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  padding: 1rem 1.5rem;
+.form-items input,
+.form-items textarea,
+.form-items button {
+  flex-grow: 1;
+  padding: 0.8rem;
+}
+
+.form-items button {
+  background-color: #1a2236;
+  max-height: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #fff;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.border-radius {
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
 }
 
 /* Footer  */
@@ -227,6 +249,7 @@
   justify-content: space-around;
   background-color: #1a2236;
   height: 30vw;
+  padding: 1rem 0;
 }
 
 .footer p {
@@ -253,4 +276,4 @@
   font-size: 1.5rem;
 }
 
-#my-name { margin-top: 5rem; }
+#my-name { margin-top: 2rem; }
