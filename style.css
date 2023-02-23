@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
@@ -321,3 +322,26 @@
 }
 
 #my-name { margin-top: 2rem; }
+
+@media only screen and (min-width: 768px)  {
+  .wrapper {
+    background-image: none;
+  }
+
+  #navbar-toggle {
+    display: none;
+  }
+
+  .flex-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar-links {
+    display: block;
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid #ccc;
+  }
+}
