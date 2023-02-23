@@ -14,14 +14,6 @@
   background-size: 30%;
 }
 
-/* Navbar  */
-.main-header {
-  /* display: flex;
-  justify-content: center;
-  margin: 2vw;
-  flex: 1; */
-}
-
 .display-flex-column {
   display: flex;
   flex-direction: column;
@@ -66,6 +58,7 @@
   color: #fff;
 }
 
+/* Section  */
 
 .section-title {
   display: flex;
@@ -344,4 +337,61 @@
   .navbar {
     border-bottom: 0.5px solid #ccc;
   }
+
+  /* Section  */
+  .section-title,
+  .section-header {
+    margin: 0;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .section-header {
+    width: 80%;
+    margin_bottom: 0.5rem 0;
+  }
+  .section-header,
+  #my-name,
+  .intro .notes,
+  .intro .my-button {
+    margin-left: 15%;
+  }
+
+  .intro {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    /* align-items: start;  */
+  }
+
+  #my-name {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    justify-content: start;
+    border: 1px solid blue;
+  }
+
+  .my-button {
+    width: 50%;
+  }
+
+  .outlaw {
+    background-image: url(assets/images/image-geometry_1.png);
+    background-size: cover;
+    width: 50%;
+    margin: 0;
+    height: 62.3vw;
+  }
+
+  .outlaw img {
+    display: none;
+  }
+
+  .notes,
+.my-button {
+  align-self: start;
+}
+
+
 }
