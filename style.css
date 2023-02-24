@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .wrapper {
   min-width: 375px;
   display: flex;
@@ -321,6 +325,26 @@
 
 #my-name { margin-top: 2rem; }
 
+.dark-btn:hover {
+  background-color: #e5e5e5;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.dark-btn:active {
+  border: 2px solid #1a2236;
+}
+
+.light-btn:hover {
+  background-color: #1a2236;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.light-btn:active {
+  border: 2px solid #fff;
+}
+
 @media only screen and (min-width: 768px) {
   .wrapper {
     background-image: none;
@@ -618,6 +642,12 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+
+  .see-project {
+    color: #1a2236;
+    border: 1px solid #fff;
+    background-color: #fff;
   }
 }
 
