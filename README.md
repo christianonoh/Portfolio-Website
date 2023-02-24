@@ -64,7 +64,7 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-cd my-folder [https://github.com/christianonoh/Portfolio-setup-and-mobile-first.git]
+cd my-folder [https://github.com/christianonoh/Portfolio-Website.git]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +83,10 @@ cd my-folder [https://github.com/christianonoh/Portfolio-setup-and-mobile-first.
 
 <!-- FUTURE FEATURES -->
 
+
 ## 🔭 Future Features <a name="future-features"></a>
+- Responsiveness
+- Contact Form
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
