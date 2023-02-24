@@ -120,6 +120,7 @@
 .project {
   background-color: #1a2236;
   justify-content: space-around;
+  position: relative;
 }
 
 .project-img {
@@ -450,7 +451,6 @@
     margin-left: 1rem;
   }
 
-
   /* Contact  */
   .contact {
     background-image: url(assets/images/footer-bg.svg), url(assets/images/footer-bg2.svg);
@@ -581,10 +581,13 @@
   #project-dummy2 {
     grid-row: 5/6;
     grid-column: 4/7;
-    background-image: url(assets/images/image-geometry_3project-bg-2.svg);
+    background-image: url(assets/images/pro-bg2.svg), url(assets/images/pro-bg1.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 10rem;
+    background-size: 20%, 40%;
+    min-height: 15rem;
+    background-position: bottom left, top right;
+
+    /* height: 10vh; */
   }
 
   #project-dummy3 {
@@ -595,25 +598,27 @@
     background-size: 30%, 17%;
     background-position: top left, top right;
   }
-  
+
+  .project-hover {
+    display: none;
+    background-color: #1a2236;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding-top: 1rem;
+  }
+
+  .project:hover .project-hover {
+    display: block;
+  }
+
   .project-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
   }
-
-  .janoth,
-  .see-project {
-    display: none;
-  }
-
-  .project-img:hover + .janoth + .see-project {
-    display: block;
-  }
-
-  
-
-  
 }
 
 @media only screen and (min-width: 1024px) {
