@@ -509,11 +509,10 @@
 .socials {
   width: 50%;
   align-items: center;
-
 }
 
 .vw-10-margin { margin-bottom: 10vw; }
 
-.vw-5-margin { margin-bottom: 5vw; }
+.vw-2-margin { margin-bottom: 2vw; }
 
 }
