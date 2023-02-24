@@ -369,7 +369,6 @@
     margin-bottom: 2rem;
     font-size: 4.5rem;
     justify-content: start;
-    border: 1px solid blue;
   }
 
   .my-button {
@@ -498,7 +497,6 @@
   flex-direction: row;
   height: fit-content;
   align-items: center;
-  border: 1px solid red;
 }
 
 .footy-note,
@@ -507,5 +505,7 @@
   align-items: center;
 
 }
+
+.vw-margin { margin-bottom: 10vw; }
 
 }
