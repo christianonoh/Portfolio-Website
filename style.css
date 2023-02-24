@@ -345,7 +345,7 @@
 
   .section-header {
     width: 80%;
-    margin_bottom: 0.5rem 0;
+    margin-bottom: 0.5rem 0;
   }
   /* .section-header, */
   #my-name,
@@ -422,7 +422,6 @@
   grid-column: 2;
   grid-row: 1/2;
   justify-content: center;
-  margin-left: ;
 }
 .about-info-wrapper {
   display: grid;
