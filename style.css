@@ -226,7 +226,7 @@
 
 .about-info ul,
 .about-title {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   padding-left: 0;
 }
 
@@ -361,7 +361,10 @@
     display: flex;
     width: 50%;
     justify-content: center;
-    /* align-items: start;  */
+    background-image: url(assets/images/intro-dots.svg);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: 100% 100%;
   }
 
   #my-name {
@@ -387,11 +390,63 @@
   .outlaw img {
     display: none;
   }
+  .about-intro .notes { width: 100%; }
 
   .notes,
 .my-button {
   align-self: start;
 }
+
+/* About  */
+.about {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(1,1fr);
+  justify-items: center;
+}
+
+.about-info {
+  width: 25vw;
+  height: 25vw;
+  max-width: 17rem;
+  max-height: 17rem;
+  align-items: center;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-size: 30% 30%;
+  background-position: 100% 100%;
+  margin: 0;
+}
+
+.about-intro {
+  flex: 1;
+  grid-column: 2;
+  grid-row: 1/2;
+  border: 1px solid blue;
+  justify-content: center;
+  margin-left: ;
+}
+.about-info-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  margin: 0 2rem 0 2rem;
+}
+
+.bg-empty {
+  background-image: url(assets/images/image_dots_with_teal.svg);
+  background-size: 80%;
+  background-position: 100% 100%;
+}
+
+.about-intro .notes,
+.about-intro .my-button {
+  display: flex;
+  align-self: center;
+}
+
+.about-intro .notes { width: 80%; }
 
 
 }
