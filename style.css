@@ -226,16 +226,21 @@
 
 .about-info ul,
 .about-title {
-  /* margin-left: 30px; */
   padding-left: 0;
 }
 
+.bg-empty { display: none; }
+
+/* Contact  */
 .contact {
   align-self: flex-start;
   background-color: #f9f9f4;
+  background-image: url(assets/images/image_geometry_3mobile-contact-bg.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
 }
 
-.contact header { margin-top: 10vw; }
+.contact header { margin-top: 20vw; }
 
 .contact-form {
   padding: 30px 10%;
@@ -257,6 +262,7 @@
 .form-items button {
   flex-grow: 1;
   padding: 0.8rem;
+  align-items: center;
 }
 
 .form-items button {
@@ -284,6 +290,7 @@
   justify-content: space-around;
   background-color: #1a2236;
   height: 30vw;
+  max-height: 6.5rem;
   padding: 1rem 0;
 }
 
@@ -291,7 +298,7 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 1.5rem;
   color: #92dcdc;
   margin-left: 5%;
@@ -299,7 +306,7 @@
 
 .footer p i {
   margin-left: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .socials {
@@ -309,6 +316,7 @@
   height: 5vw;
   justify-content: space-around;
   font-size: 1.5rem;
+  padding: 1rem 0;
 }
 
 #my-name { margin-top: 2rem; }
@@ -421,7 +429,6 @@
   flex: 1;
   grid-column: 2;
   grid-row: 1/2;
-  justify-content: center;
 }
 .about-info-wrapper {
   display: grid;
@@ -437,9 +444,9 @@
 }
 
 .about-intro .notes,
-.about-intro .my-button {
-  display: flex;
-  align-self: center;
+.about-intro .my-button,
+.about-intro .section-header {
+  margin-left: 1rem;
 }
 
 .about-intro .notes { width: 80%; }
@@ -505,6 +512,8 @@
 
 }
 
-.vw-margin { margin-bottom: 10vw; }
+.vw-10-margin { margin-bottom: 10vw; }
+
+.vw-5-margin { margin-bottom: 5vw; }
 
 }
