@@ -12,140 +12,158 @@
 </head>
 <body>
   <main class="wrapper">
-    <header class="main">
-      <nav>
-        <i class="fa fa-bars fa-xl" aria-hidden="true"></i>
+    <header class="main-header">
+      <nav class="navbar">
+        <ul class="flex-list">
+          <li id="navbar-toggle" class="display-flex-column"><i class="fa fa-bars fa-xl" aria-hidden="true"></i></li>
+          <li class="navbar-links display-flex-column"><a href="#">Hello</a></li>
+          <li class="navbar-links display-flex-column"><a href="#">Portfolio</a></li>
+          <li class="navbar-links display-flex-column"><a href="#">About</a></li>
+          <li class="navbar-links display-flex-column"><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
-    <section class="section-title">
-      <header>
-        <h1 class="section-header" id="my-name">Christian <br> Onoh</h1>
-      </header>
-      <p class="notes">Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</p>
-      <p class="notes">If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-      <p class="my-button">Start collaboration</p>
+ <section class="section-title vw-10-margin">
+      <div class="intro display-flex-column">
+        <header >
+          <h1 class="section-header" id="my-name">Christian <br> Onoh</h1>
+        </header>
+        <p class="notes">Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work. <br><br> If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+        <p class="my-button dark-btn">Start collaboration</p>
+      </div>
+      <div class="outlaw">
+        <img class="project-img" src="assets/images/image_geometry_2.svg" alt="">
+      </div>
     </section>
-    <div class="outlaw">
-      <img class="project-img" src="assets/images/image_geometry_2.svg" alt="">
-    </div>
 
-    <section class="work-wrapper">
-      <header>
+    <section class="work-wrapper vw-10-margin">
+      <header id="project-header">
         <h1 class="section-header">Projects</h1>
       </header>
-      <div class="project">
+      <div class="project" id="project1">
         <img class="project-img" src="assets/images/pexels-antoni-shkraba-4348404.jpg" alt="">
-        <header >
-          <h2 class="project-name janoth">Project 1</h2>
-        </header>
+        <div class="project-hover">       
+        <h2 class="project-name janoth">Project 1</h2>
         <ul class="project-tools janoth">
           <li class="project-tool">HTML/CSS</li>
           <li class="project-tool">Ruby on Rails</li>
           <li class="project-tool">Javascript</li>
         </ul>
-        <p class="see-project">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
-      </div>
-      <div class="project">
+        <p class="see-project light-btn">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+      </div></div>
+      <div class="project" id="project2">
         <img class="project-img" src="assets/images/pexels-eduardo-rosas-907487.jpg" alt="">
-        <header >
-          <h2 class="project-name janoth">Project 2</h2>
-        </header>
-        <ul class="project-tools janoth">
-          <li class="project-tool">HTML/CSS</li>
-          <li class="project-tool">Ruby on Rails</li>
-          <li class="project-tool">Javascript</li>
-        </ul>
-        <p class="see-project">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+          <div class="project-hover">
+            <h2 class="project-name janoth">Project 2</h2>
+            <ul class="project-tools janoth">
+              <li class="project-tool">HTML/CSS</li>
+              <li class="project-tool">Ruby on Rails</li>
+              <li class="project-tool">Javascript</li>
+            </ul>
+            <p class="see-project light-btn">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+        </div> 
       </div>
-      <div class="project">
+      <div class="project" id="project3">
         <img class="project-img" src="assets/images/pexels-ivan-samkov-5676744.jpg" alt="">
-        <header >
-          <h2 class="project-name janoth">Project 3</h2>
-        </header>
-        <ul class="project-tools janoth">
-          <li class="project-tool">HTML/CSS</li>
-          <li class="project-tool">Ruby on Rails</li>
-          <li class="project-tool">Javascript</li>
-        </ul>
-        <p class="see-project">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+        <div class="project-hover">
+              <h2 class="project-name janoth">Project 3</h2>
+            <ul class="project-tools janoth">
+              <li class="project-tool">HTML/CSS</li>
+              <li class="project-tool">Ruby on Rails</li>
+              <li class="project-tool">Javascript</li>
+            </ul>
+            <p class="see-project light-btn">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+            </div>
+            </div>
       </div>
-      <div class="project">
+      <div class="project" id="project4">
         <img class="project-img" src="assets/images/pexels-lukas-574070 (1).jpg" alt="">
-        <header >
+        <div class="project-hover">
           <h2 class="project-name janoth">Project 4</h2>
-        </header>
+       
         <ul class="project-tools janoth">
           <li class="project-tool">HTML/CSS</li>
           <li class="project-tool">Ruby on Rails</li>
           <li class="project-tool">Javascript</li>
         </ul>
-        <p class="see-project">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
-      </div>
-      <div class="project">
+        <p class="see-project light-btn">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+      </div></div>
+      <div class="project" id="project5">
         <img class="project-img" src="assets/images/pexels-mockupeditorcom-205316.jpg" alt="">
-        <header >
+        <div class="project-hover">
           <h2 class="project-name janoth">Project 5</h2>
-        </header>
+        
         <ul class="project-tools janoth">
           <li class="project-tool">HTML/CSS</li>
           <li class="project-tool">Ruby on Rails</li>
           <li class="project-tool">Javascript</li>
         </ul>
-        <p class="see-project">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
-      </div>
-      <div class="project">
+        <p class="see-project light-btn">See this project <i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+      </div></div>
+      <div class="project" id="project6">
         <img class="project-img" src="assets/images/pexels-pixabay-39284.jpg" alt="">
-        <header >
+        <div class="project-hover">
           <h2 class="project-name janoth">Project 6</h2>
-        </header>
+        
         <ul class="project-tools janoth">
           <li class="project-tool">HTML/CSS</li>
           <li class="project-tool">Ruby on Rails</li>
           <li class="project-tool">Javascript</li>
         </ul>
-        <p class="see-project"> See this project<i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
-      </div>
+        <p class="see-project light-btn"> See this project<i class="fa fa-arrow-right fa-sm" aria-hidden="true"></i> </p>
+      </div></div>
+      <div id="project-dummy1"></div>
+      <div id="project-dummy2"></div>
+      <div id="project-dummy3"></div>
       
     </section>
   
-    <section class="section-title about">
-      <header>
-        <h1 class="section-header">About</h1>
-      </header>
-      <p class="notes">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti in voluptates alias explicabo similique ab illum quas. Rerum minus assumenda adipisci possimus hic tenetur voluptatibus. Vitae laboriosam eveniet rerum quisquam.</p>
-      <p class="my-button"><span> Get my CV <i class="fa fa-download" aria-hidden="true"></i></span> </p>
-
-      <div class="about-info bg-blue">
-        <p class="about-title">Languages</p>
-        <ul>
-          <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+    <section class="section-title about vw-10-margin">
+      <div class="about-intro display-flex-column">
+        <header>
+          <h1 class="section-header vw-2-margin">About</h1>
+        </header>
+        <p class="notes">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti in voluptates alias explicabo similique ab illum quas. Rerum minus assumenda adipisci possimus hic tenetur voluptatibus. Vitae laboriosam eveniet rerum quisquam.</p>
+        <p class="my-button dark-btn"><span> Get my CV <i class="fa fa-download" aria-hidden="true"></i></span> </p>
       </div>
-      <div class="about-info bg-red">
-        <p class="about-title">Frameworks</p>
-        <ul>
-          <li>Bootstrap</li>
-            <li>Ruby on rails</li>
-            <li>RSpec</li>
-            <li>CSS</li>
-        </ul>
-      </div>
-      <div class="about-info bg-yellow">
-        <p class="about-title">Languages</p>
-        <ul>
-          <li>JavaScript (ES5/ES6)</li>
-            <li>Ruby</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
+      <div class="about-info-wrapper display-flex-column">
+        <div class="about-info bg-blue">
+          <p class="about-title">Frameworks</p>
+          <ul>
+            <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>CSS</li>
+          </ul>
+        </div>
+        <div class="about-info bg-red">
+          <p class="about-title">Frameworks</p>
+          <ul>
+            <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>RSpec</li>
+              <li>CSS</li>
+          </ul>
+        </div>
+        <div class="about-info bg-yellow">
+          <div class="about-info-content">
+            <p class="about-title">Frameworks</p>
+            <ul>
+              <li>Bootstrap</li>
+                <li>Ruby on rails</li>
+                <li>RSpec</li>
+                <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about-info bg-empty">
+          
+        </div>
       </div>
     </section> 
-    <section class="section-title contact">
-      <header>
-        <h1 class="section-header" id="my-name">Get started</h1>
+    <section class="section-title contact display-flex-column">
+      <header class="display-flex-column">
+        <h1 class="section-header">Get started</h1>
       </header>
       <p class="notes">Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</p>
       <form class="contact-form" action="https://formspree.io/f/mwkjorkk" method="POST">
@@ -160,13 +178,13 @@
             <textarea class="border-radius" placeholder="Enter your message here" maxlength="500" required rows="6"></textarea>
           </li>
           <li class="form-items">
-            <button type="submit" class=""> Start collaboration </button>
+            <button type="submit" class="my-button dark-btn"> Start collaboration </button>
           </li>
         </ul>
       </form>
     </section>
     <footer class="footer">
-      <p>Get my Resume <i class="fa fa-external-link" aria-hidden="true"></i></p>
+      <p class ="footy-note">Get my Resume <i class="fa fa-external-link" aria-hidden="true"></i></p>
       <div class="socials">
         <i class="fa fa-stack-overflow" aria-hidden="true"></i>
         <i class="fa fa-github" aria-hidden="true"></i>
