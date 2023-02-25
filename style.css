@@ -330,6 +330,14 @@ body {
   font-size: 1.5rem;
   padding: 1rem 0;
 }
+.socials i {
+  transition: 0.2s ease-in;
+}
+.socials i:hover {
+  cursor: pointer;
+  transition: 0.2s ease-out;
+  transform: scale(1.5);
+}
 
 #my-name { margin-top: 2rem; }
 
