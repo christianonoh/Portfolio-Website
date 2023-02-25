@@ -51,10 +51,18 @@ body {
 .navbar-links {
   display: none;
   align-items: center;
+  transition: 300ms ease-in-out;
+
 }
 
 .navbar-links:hover {
   background-color: #1a2236;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.navbar-links:hover a {
+  font-weight: 500;
 }
 
 .navbar-links:hover a {
