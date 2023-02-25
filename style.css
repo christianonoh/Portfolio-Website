@@ -333,20 +333,31 @@ body {
 
 #my-name { margin-top: 2rem; }
 
+.dark-btn {
+  transition: 100ms ease-out;
+}
+
 .dark-btn:hover {
   background-color: #e5e5e5;
   color: #1a2236;
   border: 1px solid #1a2236;
+  transition: 100ms ease-in;
+  cursor: pointer;
 }
 
 .dark-btn:active {
   border: 2px solid #1a2236;
+}
+.light-btn {
+  transition: 100ms ease-out;
 }
 
 .light-btn:hover {
   background-color: #1a2236;
   color: #fff;
   border: 1px solid #fff;
+  transition: 100ms ease-in;
+  cursor: pointer;
 }
 
 .light-btn:active {
@@ -635,15 +646,28 @@ body {
     display: none;
     background-color: #1a2236;
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     left: 0;
     right: 0;
     z-index: 1;
     padding-top: 1rem;
   }
+  .project {
+    overflow: hidden;
+  }
 
   .project:hover .project-hover {
     display: block;
+    animation: slide-up 1s forwards;
+  }
+
+  @keyframes slide-up {
+    0% {
+      bottom: -30%;
+    }
+    100% {
+      bottom: 0;
+    }
   }
 
   .project-img {
