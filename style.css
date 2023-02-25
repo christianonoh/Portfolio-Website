@@ -52,7 +52,6 @@ body {
   display: none;
   align-items: center;
   transition: 300ms ease-in-out;
-
 }
 
 .navbar-links:hover {
@@ -62,11 +61,8 @@ body {
 }
 
 .navbar-links:hover a {
-  font-weight: 500;
-}
-
-.navbar-links:hover a {
   color: #fff;
+  font-weight: 500;
 }
 
 /* Section  */
@@ -316,6 +312,10 @@ body {
   margin-left: 5%;
 }
 
+.socials i {
+  transition: 0.2s ease-in;
+}
+
 .footer p i {
   margin-left: 0.5rem;
   font-size: 1rem;
@@ -330,9 +330,7 @@ body {
   font-size: 1.5rem;
   padding: 1rem 0;
 }
-.socials i {
-  transition: 0.2s ease-in;
-}
+
 .socials i:hover {
   cursor: pointer;
   transition: 0.2s ease-out;
@@ -356,6 +354,7 @@ body {
 .dark-btn:active {
   border: 2px solid #1a2236;
 }
+
 .light-btn {
   transition: 100ms ease-out;
 }
@@ -654,12 +653,14 @@ body {
     display: none;
     background-color: #1a2236;
     position: absolute;
+
     /* bottom: 0; */
     left: 0;
     right: 0;
     z-index: 1;
     padding-top: 1rem;
   }
+
   .project {
     overflow: hidden;
   }
@@ -673,6 +674,7 @@ body {
     0% {
       bottom: -30%;
     }
+
     100% {
       bottom: 0;
     }
