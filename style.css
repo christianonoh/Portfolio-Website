@@ -32,10 +32,30 @@ body {
 
 #open-menu {
   align-items: end;
+  margin: 1.4rem;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.navbar li,
-#open-menu {
+#menu-items {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  transition: top 1s ease;
+  background-color: #fff;
+  background-image: url(/assets/images/image_geometry_menu_1mobile-menu-bg.svg), url(/assets/images/image_geometry_menu_2mobile-menu-bg2.svg);
+  background-repeat: no-repeat;
+  background-size: 80%, 100%;
+  background-position: top left, bottom;
+  /* display: none; */
+}
+
+#menu-items > 
+
+.navbar li {
   padding: 1rem;
 }
 
@@ -45,15 +65,15 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 24px;
 }
 
-.navbar-links {
+/* .navbar-links {
   display: none;
   align-items: center;
   transition: 300ms ease-in-out;
-}
+} */
 
 .navbar-links:hover {
   background-color: #1a2236;
