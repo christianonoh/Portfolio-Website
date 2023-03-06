@@ -30,11 +30,12 @@ body {
   width: 100%;
 }
 
-#navbar-toggle {
+#open-menu {
   align-items: end;
 }
 
-.navbar li {
+.navbar li,
+#open-menu {
   padding: 1rem;
 }
 
@@ -376,7 +377,7 @@ body {
     background-image: none;
   }
 
-  #navbar-toggle {
+  #open-menu {
     display: none;
   }
 
