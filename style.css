@@ -376,7 +376,6 @@ body {
     left: 0;
     right: 0;
     z-index: 10;
-    transition: top 1s ease;
     background-color: #fff;
     background-image: url(/assets/images/image_geometry_menu_1mobile-menu-bg.svg), url(/assets/images/image_geometry_menu_2mobile-menu-bg2.svg);
     background-repeat: no-repeat;
@@ -384,7 +383,6 @@ body {
     background-position: top left, bottom;
     justify-content: center;
     align-items: center;
-    transition: transform 0.5s ease;
     display: none;
   }
 
