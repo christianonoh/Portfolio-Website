@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -37,8 +38,8 @@ body {
 }
 
 .navbar li {
-  padding: 1rem;
-} 
+  padding: 2rem;
+}
 
 .navbar a {
   text-decoration: none;
@@ -367,7 +368,7 @@ body {
   border: 2px solid #fff;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .menu-items {
     height: 100vh;
     position: fixed;
@@ -383,11 +384,12 @@ body {
     background-position: top left, bottom;
     justify-content: center;
     align-items: center;
+    transition: transform 0.5s ease;
     display: none;
   }
-  
+
   .close-menu {
-    display: block ;
+    display: block;
     position: absolute;
     top: 1.4rem;
     right: 1.4rem;
@@ -397,14 +399,13 @@ body {
   .display-mobile-menu {
     display: flex;
   }
-  
+
   .navbar-links {
     width: 100%;
     align-items: center;
     padding: 2rem;
   }
 }
-
 
 @media only screen and (min-width: 768px) {
   .wrapper {
