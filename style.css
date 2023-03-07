@@ -377,7 +377,7 @@ body {
     right: 0;
     z-index: 10;
     background-color: #fff;
-    background-image: url(/assets/images/image_geometry_menu_1mobile-menu-bg.svg), url(/assets/images/image_geometry_menu_2mobile-menu-bg2.svg);
+    background-image: url(assets/images/image_geometry_menu_1mobile-menu-bg.svg), url(assets/images/image_geometry_menu_2mobile-menu-bg2.svg);
     background-repeat: no-repeat;
     background-size: 80%, 100%;
     background-position: top left, bottom;
