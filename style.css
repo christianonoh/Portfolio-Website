@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -18,41 +19,36 @@ body {
   background-size: 30%;
 }
 
-.display-flex-column {
+.display-flex-column,
+.flex-list {
   display: flex;
   flex-direction: column;
 }
 
 .flex-list {
-  display: flex;
-  flex-direction: column;
   list-style: none;
   width: 100%;
 }
 
-#open-menu {
+.open-menu {
   align-items: end;
+  margin: 1.4rem;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
-.navbar li,
-#open-menu {
-  padding: 1rem;
+.navbar li {
+  padding: 2rem;
 }
 
 .navbar a {
   text-decoration: none;
-  color: #1a2236;
+  color: #000;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: 24px;
-}
-
-.navbar-links {
-  display: none;
-  align-items: center;
-  transition: 300ms ease-in-out;
 }
 
 .navbar-links:hover {
@@ -372,12 +368,50 @@ body {
   border: 2px solid #fff;
 }
 
+@media only screen and (max-width: 768px) {
+  .menu-items {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+    background-image: url(/assets/images/image_geometry_menu_1mobile-menu-bg.svg), url(/assets/images/image_geometry_menu_2mobile-menu-bg2.svg);
+    background-repeat: no-repeat;
+    background-size: 80%, 100%;
+    background-position: top left, bottom;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .close-menu {
+    display: block;
+    position: absolute;
+    top: 1.4rem;
+    right: 1.4rem;
+    font-size: 2rem;
+  }
+
+  .display-mobile-menu {
+    display: flex;
+  }
+
+  .navbar-links {
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .wrapper {
     background-image: none;
   }
 
-  #open-menu {
+  .open-menu,
+  .close-menu {
     display: none;
   }
 
@@ -404,7 +438,7 @@ body {
 
   .section-header {
     width: 80%;
-    margin-bottom: 0.5rem 0;
+    margin-bottom: 0.5rem;
   }
 
   /* .section-header, */
@@ -510,7 +544,6 @@ body {
     background-position: left top, bottom right;
     flex-direction: column;
     align-items: center;
-    height: fit-content;
   }
 
   .contact .section-header {
@@ -552,7 +585,6 @@ body {
   /* Footer  */
   .footer {
     flex-direction: row;
-    height: fit-content;
     align-items: center;
   }
 
