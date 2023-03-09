@@ -179,5 +179,25 @@ seeProjectButton.forEach((p, index) => {
       popUp.classList.remove('display-visible');
       document.body.classList.toggle('no-scroll');
     });
+    // Slide controls
+    const nextBtn = document.querySelector('.next');
+    const prevBtn = document.querySelector('.prev');
+    const mainimg = document.getElementById('project-img');
+    const images = projectInfos[index].imgSrc;
+    let num = 0;
+    prevBtn.addEventListener('click', () => {
+      num -= 1;
+      if (num < 0) {
+        num = images.length - 1;
+        mainimg.src = images[num];
+      } else { mainimg.src = images[num]; }
+    });
+    nextBtn.addEventListener('click', () => {
+      num += 1;
+      if (num >= images.length) {
+        num = 0;
+        mainimg.src = images[num];
+      } else { mainimg.src = images[num]; }
+    });
   });
 });
