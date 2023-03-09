@@ -9,6 +9,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .wrapper {
   min-width: 375px;
   display: flex;
@@ -157,7 +161,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 80%;
   margin: 5px;
 }
@@ -328,6 +332,10 @@ body {
   padding: 1rem 0;
 }
 
+.popup-btn button i {
+  font-size: 1.5rem;
+}
+
 .socials i:hover {
   cursor: pointer;
   transition: 0.2s ease-out;
@@ -367,6 +375,120 @@ body {
 .light-btn:active {
   border: 2px solid #fff;
 }
+
+/* Pop up  */
+
+.popup {
+  background-color: #fff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: none;
+}
+
+.popup-container {
+  height: 100vh;
+  background-color: #fff;
+  width: 90vw;
+  margin: auto;
+  padding: 5rem 0 1rem 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.popup-container::-webkit-scrollbar { display: none; }
+
+.popup-container .project-name {
+  color: #1a2236;
+  font-weight: 700;
+}
+
+.popup-container .project-tool {
+  background-color: unset;
+  border: 1px solid #1a2236;
+}
+
+.popup-container .see-project {
+  display: flex;
+  justify-content: center;
+  max-width: 20rem;
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+  position: relative;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.popup-container .see-project i {
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  font-size: 1.5rem;
+}
+
+.popup-container .notes {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.slider {
+  width: 90vw;
+  height: 60vw;
+  position: relative;
+}
+
+.slider .project-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.img-icons {
+  display: flex;
+}
+
+.img-icons img {
+  width: 25%;
+}
+
+.popup-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.popup-btn button {
+  background: none;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+.popup-btn button:hover i { color: #95a5a6; }
+
+.close-pop {
+  display: block;
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+  font-size: 2rem;
+}
+
+.display-visible { display: flex; }
+
+/* Media Queries  */
 
 @media only screen and (max-width: 768px) {
   .menu-items {
@@ -599,7 +721,6 @@ body {
   .vw-2-margin { margin-bottom: 2vw; }
 
   /* Projects  */
-
   .work-wrapper {
     display: inline-grid;
     grid-template-columns: repeat(6, 16.6vw);
@@ -669,8 +790,6 @@ body {
     background-size: 20%, 40%;
     min-height: 15rem;
     background-position: bottom left, top right;
-
-    /* height: 10vh; */
   }
 
   #project-dummy3 {
@@ -686,8 +805,6 @@ body {
     display: none;
     background-color: #1a2236;
     position: absolute;
-
-    /* bottom: 0; */
     left: 0;
     right: 0;
     z-index: 1;
@@ -723,6 +840,60 @@ body {
     color: #1a2236;
     border: 1px solid #fff;
     background-color: #fff;
+  }
+
+  /* Pop up  */
+
+  .popup {
+    background-color: #1a2236;
+  }
+
+  .popup-container {
+    height: 90vh;
+    position: relative;
+  }
+
+  .popup-container .project-name {
+    font-size: 3.75rem;
+  }
+
+  .popup-container .project-tool {
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .popup-container .see-project {
+    justify-content: space-between;
+    width: 40%;
+  }
+
+  .popup-container .notes {
+    width: 60%;
+    margin: 1.5rem 0;
+  }
+
+  .slider {
+    height: auto;
+  }
+
+  .slider,
+  .img-icons { width: 80vw; }
+
+  .slider,
+  .img-icons,
+  .pop-btns,
+  .popup-container .notes {
+    display: flex;
+    align-self: center;
+  }
+
+  .pop-btns {
+    width: 60%;
+    position: relative;
+  }
+
+  .popup-btn button i {
+    font-size: 1.5rem;
   }
 }
 
