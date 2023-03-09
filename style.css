@@ -488,7 +488,6 @@ body {
 
 .display-visible { display: flex; }
 
-
 /* Media Queries  */
 
 @media only screen and (max-width: 768px) {
@@ -720,7 +719,6 @@ body {
   .vw-10-margin { margin-bottom: 10vw; }
 
   .vw-2-margin { margin-bottom: 2vw; }
-
 
   /* Projects  */
   .work-wrapper {
