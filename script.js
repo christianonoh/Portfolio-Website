@@ -142,7 +142,7 @@ const popUp = document.querySelector('.popup');
 
 seeProjectButton.forEach((p, index) => {
   p.addEventListener('click', () => {
-    document.body.classList.toggle('no-scroll');
+    document.body.classList.add('no-scroll');
     popUp.classList.add('display-visible');
     popUp.innerHTML = `
   <div class="popup-container display-flex-column">
@@ -177,7 +177,7 @@ seeProjectButton.forEach((p, index) => {
     const closePop = document.querySelector('.close-pop');
     closePop.addEventListener('click', () => {
       popUp.classList.remove('display-visible');
-      document.body.classList.toggle('no-scroll');
+      document.body.classList.remove('no-scroll');
     });
     // Slide controls
     const nextBtn = document.querySelector('.next');
