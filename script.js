@@ -265,7 +265,7 @@ form.addEventListener('submit', (btn) => {
   }
 });
 
-// Local Storage 
+// Local Storage
 
 const fullName = form.elements.name;
 const emailAddress = form.elements.email;
@@ -275,4 +275,4 @@ const storedData = JSON.parse(localStorage.getItem('formData'));
 if (storedData) {
   fullName.value = storedData.name;
   emailAddress.value = storedData.email;
-} 
+}
