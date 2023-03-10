@@ -276,18 +276,3 @@ if (storedData) {
   fullName.value = storedData.name;
   emailAddress.value = storedData.email;
 } 
-
-// Save formData
-function saveData() {
-  const formData = {
-    name : fullName.value,
-    email : emailAddress.value
-  }
-  localStorage.setItem('formData', JSON.stringify(formData));
-}
-
-fullName.addEventListener('input', saveData);
-emailAddress.addEventListener('input', saveData);
-
-
-
