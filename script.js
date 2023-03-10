@@ -156,8 +156,8 @@ seeProjectButton.forEach((p, index) => {
         <div class="slider">
           <img id="project-img" class="project-img" src="${projectInfos[index].imgSrc[0]}" alt="">
           <div class="popup-btn">
-            <button class="prev" onclick="previous()"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
-            <button class="next" onclick="next()"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+            <button class="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
           </div>
         </div>
         <div class="img-icons">
@@ -200,4 +200,67 @@ seeProjectButton.forEach((p, index) => {
       } else { mainimg.src = images[num]; }
     });
   });
+});
+
+// Contact form
+const form = document.getElementById('contact-form');
+// show a message with a type of the input
+function showMessage(input, message, type) {
+  const msg = input.parentNode.querySelector('small');
+  msg.innerText = message;
+  // update the class for the input
+  input.className = type ? 'success' : 'error';
+  return type;
+}
+
+function showError(input, message) {
+  return showMessage(input, message, false);
+}
+
+function showSuccess(input) {
+  return showMessage(input, '', true);
+}
+
+function hasValue(input, message) {
+  if (input.value.trim() === '') {
+    return showError(input, message);
+  }
+  return showSuccess(input);
+}
+
+function validateEmail(input, requiredMsg, invalidMsg, invalidCase) {
+  // check if the value is not empty
+  if (!hasValue(input, requiredMsg)) {
+    return false;
+  }
+  // validate email format //
+  const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const lowerCaseChecker = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+  const email = input.value.trim();
+  if (!emailRegex.test(email)) {
+    return showError(input, invalidMsg);
+  } if (!lowerCaseChecker.test(email)) {
+    return showError(input, invalidCase);
+  }
+  return true;
+}
+
+const NAME_REQUIRED = 'Please enter your name';
+const EMAIL_REQUIRED = 'Please enter your email';
+const EMAIL_INVALID = 'Please enter a correct email address format';
+const EMAIL_CASE = 'Please email address in lower case';
+const MESSAGE_REQUIRED = 'Please enter your message ;)';
+
+form.addEventListener('submit', (btn) => {
+  // stop form submission
+  btn.preventDefault();
+  // validate the form
+  const nameValid = hasValue(form.elements.name, NAME_REQUIRED);
+  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID, EMAIL_CASE);
+  const messageValid = hasValue(form.elements['user-message'], MESSAGE_REQUIRED);
+  // if valid, submit the form.
+  if (nameValid && emailValid && messageValid) {
+    form.submit();
+    form.reset();
+  }
 });

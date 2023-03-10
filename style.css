@@ -292,6 +292,23 @@ body {
   border-radius: 0.3rem;
 }
 
+.form-items input:focus {
+  outline: 0;
+}
+
+.form-items .success {
+  border: 2px solid #09c372;
+}
+
+.form-items .error {
+  border: 2px solid #ff3860;
+}
+
+.form-items small {
+  color: #ff3860;
+  width: 100%;
+}
+
 /* Footer  */
 .footer {
   display: flex;
@@ -696,7 +713,8 @@ body {
     margin-bottom: 10vw;
   }
 
-  .form-items input {
+  .form-items input,
+  .form-items small {
     width: 16.6rem;
   }
 

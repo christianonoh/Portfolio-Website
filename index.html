@@ -103,16 +103,19 @@
         <h1 class="section-header">Get started</h1>
       </header>
       <p class="notes">Hello! I am a software developer! I can help you build a product, feature or website. Take a look at my work.</p>
-      <form class="contact-form" action="https://formspree.io/f/mwkjorkk" method="POST">
+      <form class="contact-form" id="contact-form" action="https://formspree.io/f/mwkjorkk" method="POST">
         <ul>
-          <li class="form-items">
-            <input class="border-radius" type="text" placeholder="Your name" maxlength="30" required name="name field">
+          <li class="form-items display-flex-column">
+            <input class="border-radius" type="text" placeholder="Your name" maxlength="30" name="name">
+            <small></small>
           </li>
-          <li class="form-items">
-            <input class="border-radius" type="email" placeholder="Your email" name="email field" required/>
+          <li class="form-items display-flex-column">
+            <input class="border-radius" type="text" placeholder="Your email" name="email"/>
+            <small></small>
           </li>
-          <li class="form-items">
-            <textarea class="border-radius" placeholder="Enter your message here" maxlength="500" required rows="6" name="text area field"></textarea>
+          <li class="form-items display-flex-column">
+            <textarea class="border-radius" placeholder="Enter your message here" maxlength="500" rows="6" name="user-message"></textarea>
+            <small></small>
           </li>
           <li class="form-items">
             <button type="submit" class="my-button dark-btn"> Start collaboration </button>
