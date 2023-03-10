@@ -233,7 +233,7 @@ function validateEmail(input, requiredMsg, invalidMsg, invalidCase) {
   if (!hasValue(input, requiredMsg)) {
     return false;
   }
-  // validate email format
+  // validate email format //
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   const email = input.value.trim();
   if (!emailRegex.test(email)) {
