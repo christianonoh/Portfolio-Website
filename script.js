@@ -249,3 +249,17 @@ const EMAIL_REQUIRED = 'Please enter your email';
 const EMAIL_INVALID = 'Please enter a correct email address format';
 const EMAIL_CASE = 'Please email address in lower case';
 const MESSAGE_REQUIRED = 'Please enter your message ;)';
+
+form.addEventListener('submit', (btn) => {
+  // stop form submission
+  btn.preventDefault();
+  // validate the form
+  const nameValid = hasValue(form.elements.name, NAME_REQUIRED);
+  const emailValid = validateEmail(form.elements.email, EMAIL_REQUIRED, EMAIL_INVALID, EMAIL_CASE);
+  const messageValid = hasValue(form.elements['user-message'], MESSAGE_REQUIRED);
+  // if valid, submit the form.
+  if (nameValid && emailValid && messageValid) {
+    form.submit();
+    form.reset();
+  }
+});
