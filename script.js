@@ -269,7 +269,7 @@ form.addEventListener('submit', (btn) => {
 
 const fullName = form.elements.name;
 const emailAddress = form.elements.email;
-const  userMessage = form.elements['user-message'];
+const userMessage = form.elements['user-message'];
 
 // Access stored form data if present
 const storedData = JSON.parse(localStorage.getItem('formData'));
