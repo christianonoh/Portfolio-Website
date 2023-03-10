@@ -280,9 +280,9 @@ if (storedData) {
 // Save formData
 function saveData() {
   const formData = {
-    name : fullName.value,
-    email : emailAddress.value
-  }
+    name: fullName.value,
+    email: emailAddress.value,
+  };
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 fullName.addEventListener('input', saveData);
