@@ -269,12 +269,14 @@ form.addEventListener('submit', (btn) => {
 
 const fullName = form.elements.name;
 const emailAddress = form.elements.email;
+const  userMessage = form.elements['user-message'];
 
 // Access stored form data if present
 const storedData = JSON.parse(localStorage.getItem('formData'));
 if (storedData) {
   fullName.value = storedData.name;
   emailAddress.value = storedData.email;
+  userMessage.value = storedData.usermessage;
 }
 
 // Save formData
@@ -282,8 +284,10 @@ function saveData() {
   const formData = {
     name: fullName.value,
     email: emailAddress.value,
+    usermessage: userMessage.value,
   };
   localStorage.setItem('formData', JSON.stringify(formData));
 }
 fullName.addEventListener('input', saveData);
 emailAddress.addEventListener('input', saveData);
+userMessage.addEventListener('input', saveData);
