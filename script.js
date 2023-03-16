@@ -20,19 +20,19 @@ navLinks.forEach((element) => {
 const projectInfos = [
   {
     id: 'project1',
-    name: 'Project 1',
+    name: 'Travel & Workshop',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. ",
+      "Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.",
     imgSrc: [
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-eduardo-rosas-907487.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-eduardo-rosas-907487.jpg',
+      '/assets/images/travel_workshop1.png',
+      'assets/images/travel_workshop2.png',
+      'assets/images/travel_workshop3.png',
+      'assets/images/travel_workshop4.png',
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://christianonoh.github.io/travel-workshop/',
+    linkSource: 'https://github.com/christianonoh/travel-workshop',
   },
   {
     id: 'project2',
@@ -154,7 +154,9 @@ seeProjectButton.forEach((p, index) => {
           <li class="project-tool">${projectInfos[index].technologies[2]}</li>
         </ul>
         <div class="slider">
+          <div class="pop-img-container">
           <img id="project-img" class="project-img" src="${projectInfos[index].imgSrc[0]}" alt="">
+          </div>
           <div class="popup-btn">
             <button class="prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
             <button class="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
@@ -179,6 +181,7 @@ seeProjectButton.forEach((p, index) => {
       popUp.classList.remove('display-visible');
       document.body.classList.remove('no-scroll');
     });
+    
     // Slide controls
     const nextBtn = document.querySelector('.next');
     const prevBtn = document.querySelector('.prev');
@@ -264,3 +267,30 @@ form.addEventListener('submit', (btn) => {
     form.reset();
   }
 });
+
+// Local Storage
+
+const fullName = form.elements.name;
+const emailAddress = form.elements.email;
+const userMessage = form.elements['user-message'];
+
+// Access stored form data if present
+const storedData = JSON.parse(localStorage.getItem('formData'));
+if (storedData) {
+  fullName.value = storedData.name;
+  emailAddress.value = storedData.email;
+  userMessage.value = storedData.usermessage;
+}
+
+// Save formData
+function saveData() {
+  const formData = {
+    name: fullName.value,
+    email: emailAddress.value,
+    usermessage: userMessage.value,
+  };
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+fullName.addEventListener('input', saveData);
+emailAddress.addEventListener('input', saveData);
+userMessage.addEventListener('input', saveData);
