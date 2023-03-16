@@ -172,8 +172,8 @@ seeProjectButton.forEach((p, index) => {
         ${projectInfos[index].description}
         </p>
         <div class="pop-btns">
-          <button class="see-project more-info light-btn">See Live <i class="fa fa-external-link" aria-hidden="true"></i> </button>
-          <button class="see-project light-btn">See Live <i class="fa fa-github" aria-hidden="true"></i> </button>
+          <button class="see-project more-info light-btn"><a href="${projectInfos[index].linkLive}">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+          <button class="see-project light-btn"><a href="${projectInfos[index].linkSource}">See Live <i class="fa fa-github" aria-hidden="true"></i></a> </button>
         </div>
       </div>`;
     const closePop = document.querySelector('.close-pop');
