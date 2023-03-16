@@ -24,7 +24,7 @@ const projectInfos = [
     description:
       "Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.",
     imgSrc: [
-      '/assets/images/travel_workshop1.png',
+      'assets/images/travel_workshop1.png',
       'assets/images/travel_workshop2.png',
       'assets/images/travel_workshop3.png',
       'assets/images/travel_workshop4.png',
