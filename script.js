@@ -22,7 +22,7 @@ const projectInfos = [
     id: 'project1',
     name: 'Travel & Workshop',
     description:
-      "Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.",
+      'Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.',
     imgSrc: [
       'assets/images/travel_workshop1.png',
       'assets/images/travel_workshop2.png',
@@ -36,78 +36,78 @@ const projectInfos = [
   },
   {
     id: 'project2',
-    name: 'Project 2',
+    name: 'Film Fussion',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </br> </br> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.   ",
+      'Film Fussion is an innovative web-based platform that serves as a rich treasure trove of TV shows and movies. This dynamic website empowers users to not only explore an extensive database but also actively engage with their favorite films and shows. Here, users can effortlessly rate, comment, and like their favorite movies, fostering a vibrant community of movie aficionados. Join us to discover, discuss, like, and dive deeper into the world of entertainment!',
     imgSrc: [
-      'assets/images/pexels-eduardo-rosas-907487.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-eduardo-rosas-907487.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
+      'assets/images/filmfussion1.png',
+      'assets/images/filmfussion4.png',
+      'assets/images/filmfussion2.png',
+      'assets/images/filmfussion3.png',
     ],
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    technologies: ['HTML/CSS', 'Webpack', 'Javascript'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://filmfussion.netlify.app/',
+    linkSource: 'https://github.com/christianonoh/film-fussion',
   },
   {
     id: 'project3',
-    name: 'Project 3',
+    name: 'Weather360',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  ",
+      'Welcome to Weather360, your ultimate destination for comprehensive and precise weather insights spanning the entire globe. Our cutting-edge web application empowers you to effortlessly access up-to-the-minute weather updates, detailed forecasts, and a wealth of pertinent information for cities worldwide. Explore Weather360 and stay one step ahead with the weather information you need at your fingertips.',
     imgSrc: [
-      'assets/images/pexels-ivan-samkov-5676744.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-ivan-samkov-5676744.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
+      'assets/images/weather1.png',
+      'assets/images/weather2.png',
+      'assets/images/weather3.png',
+      'assets/images/weather4.png',
     ],
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    technologies: ['React', 'CSS3', 'Webpack'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://theweather360.onrender.com/',
+    linkSource: 'https://github.com/christianonoh/weather360',
   },
   {
     id: 'project4',
-    name: 'Project 4',
+    name: 'Coin Mapper',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  ",
+      'CoinMapper is a user-friendly and intuitive budget management application built with Ruby on Rails. This app is designed to assist you in effortlessly managing your finances, helping you track expenses, map income, and gain control over your financial journey. Start your path to financial success today with CoinMapper.',
     imgSrc: [
-      'assets/images/pexels-lukas-57407023.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-lukas-57407023.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
+      'assets/images/coinmapper3.png',
+      'assets/images/coinmapper1.png',
+      'assets/images/coinmapper2.png',
+      'assets/images/coinmapper4.png',
     ],
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    technologies: ['HTML/SCSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://coinmapper.onrender.com/',
+    linkSource: 'https://github.com/christianonoh/coin-mapper',
   },
   {
     id: 'project5',
-    name: 'Project 5',
+    name: 'VECS School',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  ",
+      'VECS School is a course booking platform designed to facilitate the booking of courses by allowing users to specify their city and preferred dates.',
     imgSrc: [
-      'assets/images/pexels-mockupeditorcom-205316.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
-      'assets/images/pexels-mockupeditorcom-205316.jpg',
-      'assets/images/pexels-antoni-shkraba-4348404.jpg',
+      'assets/images/vecs-home.png',
+      'assets/images/vecs-reserve.png',
+      'assets/images/vecs-login.png',
+      'assets/images/vecs-courses.png',
     ],
-    technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
+    technologies: ['HTML/CSS', 'Ruby on Rails', 'React'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://vecs-school.onrender.com',
+    linkSource: 'https://github.com/smunoz1988/vecs-school-frontend',
   },
   {
     id: 'project6',
-    name: 'Project 6',
+    name: 'Math Wizardry',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  ",
+      'Introducing Math Wizardry: Your one-stop destination for seamless calculations and a daily dose of mathematical inspiration! Math Wizardry is a dynamic Single Page App (SPA) thoughtfully crafted with React, a leading JavaScript library for creating captivating user interfaces. Experience the magic of mathematics with interactive calculations and discover nuggets of wisdom through an array of thought-provoking math-related quotes.',
     imgSrc: [
-      'assets/images/pexels-pixabay-39284.jpg',
-      'assets/images/pexels-mockupeditorcom-205316.jpg',
-      'assets/images/pexels-pixabay-39284.jpg',
-      'assets/images/pexels-mockupeditorcom-205316.jpg',
+      'assets/images/mathwizard4.png',
+      'assets/images/mathwizard2.png',
+      'assets/images/mathwizard3.png',
+      'assets/images/mathwizard4.png',
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
@@ -162,18 +162,13 @@ seeProjectButton.forEach((p, index) => {
             <button class="next"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
           </div>
         </div>
-        <div class="img-icons">
-          <img src="${projectInfos[index].imgSrc[0]}" alt="">
-          <img src="${projectInfos[index].imgSrc[1]}" alt="">
-          <img src="${projectInfos[index].imgSrc[2]}" alt="">
-          <img src="${projectInfos[index].imgSrc[3]}" alt="">
-        </div>
+
         <p class="notes">
         ${projectInfos[index].description}
         </p>
         <div class="pop-btns">
-          <button class="see-project more-info light-btn"><a href="${projectInfos[index].linkLive}">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-          <button class="see-project light-btn"><a href="${projectInfos[index].linkSource}">See Live <i class="fa fa-github" aria-hidden="true"></i></a> </button>
+          <button class="see-project more-info light-btn"><a href="${projectInfos[index].linkLive}" target="_blank">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
+          <button class="see-project light-btn"><a href="${projectInfos[index].linkSource}" target="_blank">See Live <i class="fa fa-github" aria-hidden="true"></i></a> </button>
         </div>
       </div>`;
     const closePop = document.querySelector('.close-pop');
@@ -181,7 +176,7 @@ seeProjectButton.forEach((p, index) => {
       popUp.classList.remove('display-visible');
       document.body.classList.remove('no-scroll');
     });
-    
+
     // Slide controls
     const nextBtn = document.querySelector('.next');
     const prevBtn = document.querySelector('.prev');
