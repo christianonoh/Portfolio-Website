@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 * {
   margin: 0;
   padding: 0;
@@ -14,16 +15,13 @@ a {
   text-decoration: none;
 }
 
-.no-scroll {
-  overflow: hidden;
-}
+.no-scroll { overflow: hidden; }
 
 .wrapper {
   min-width: 375px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  /* background-image: url(assets/images/image_geometry_1.svg); */
   background-repeat: no-repeat;
   background-size: 30%;
 }
@@ -41,6 +39,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+
 .display-flex-column,
 .flex-list {
   display: flex;
@@ -118,7 +117,6 @@ a {
   align-self: center;
 }
 
-
 .notes {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -126,7 +124,7 @@ a {
   margin: 0.3rem 0;
 }
 
-.intro-notes { font-size: large;}
+.intro-notes { font-size: large; }
 
 .my-button {
   display: flex;
@@ -531,9 +529,10 @@ a {
 .close-pop {
   display: block;
   position: fixed;
-  top: calc(3vw + 1.4rem);
+  top: calc(5vw + 1.4rem);
   right: calc(4vw + 1.4rem);
   font-size: 2rem;
+  color: #e04d5a;
 }
 
 .display-visible { display: flex; }
@@ -556,6 +555,11 @@ a {
     justify-content: center;
     align-items: center;
     display: none;
+  }
+
+  .close-pop {
+    top: calc(5vw + 3.5rem);
+    right: calc(2vw + 1.4rem);
   }
 
   .close-menu {
@@ -593,11 +597,17 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1.4rem 10vw;
+    border-bottom: 0.5px solid #ccc;
   }
 
   .open-menu,
   .close-menu {
     display: none;
+  }
+
+  .close-pop {
+    top: calc(8vw + 2.5rem);
+    right: calc(4vw + 2rem);
   }
 
   .flex-list {
@@ -608,10 +618,6 @@ a {
 
   .navbar-links {
     display: block;
-  }
-
-  .navbar {
-    border-bottom: 0.5px solid #ccc;
   }
 
   /* Section  */
@@ -632,7 +638,7 @@ a {
   .my-button { width: 50%; }
 
   .notes { font-size: 14px; }
-  .intro-notes { font-size: large;}
+  .intro-notes { font-size: large; }
 
   .notes,
   .my-button {
@@ -715,7 +721,7 @@ a {
   .bg-red {
     align-self: end;
   }
-  
+
   .bg-yellow {
     align-self: start;
   }
@@ -983,5 +989,10 @@ a {
   .contact .section-header,
   .about .section-header {
     font-size: 6.2rem;
+  }
+
+  .close-pop {
+    top: calc(8vw + 2rem);
+    right: calc(4vw + 2rem);
   }
 }
