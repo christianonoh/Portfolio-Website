@@ -22,7 +22,7 @@ const projectInfos = [
     id: 'project1',
     name: 'Travel & Workshop',
     description:
-      "Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.",
+      'Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.',
     imgSrc: [
       'assets/images/travel_workshop1.png',
       'assets/images/travel_workshop2.png',
@@ -38,7 +38,7 @@ const projectInfos = [
     id: 'project2',
     name: 'Film Fussion',
     description:
-      "Film Fussion is an innovative web-based platform that serves as a rich treasure trove of TV shows and movies. This dynamic website empowers users to not only explore an extensive database but also actively engage with their favorite films and shows. Here, users can effortlessly rate, comment, and like their favorite movies, fostering a vibrant community of movie aficionados. Join us to discover, discuss, like, and dive deeper into the world of entertainment!",
+      'Film Fussion is an innovative web-based platform that serves as a rich treasure trove of TV shows and movies. This dynamic website empowers users to not only explore an extensive database but also actively engage with their favorite films and shows. Here, users can effortlessly rate, comment, and like their favorite movies, fostering a vibrant community of movie aficionados. Join us to discover, discuss, like, and dive deeper into the world of entertainment!',
     imgSrc: [
       'assets/images/filmfussion1.png',
       'assets/images/filmfussion4.png',
@@ -54,7 +54,7 @@ const projectInfos = [
     id: 'project3',
     name: 'Weather360',
     description:
-      "Welcome to Weather360, your ultimate destination for comprehensive and precise weather insights spanning the entire globe. Our cutting-edge web application empowers you to effortlessly access up-to-the-minute weather updates, detailed forecasts, and a wealth of pertinent information for cities worldwide. Explore Weather360 and stay one step ahead with the weather information you need at your fingertips.",
+      'Welcome to Weather360, your ultimate destination for comprehensive and precise weather insights spanning the entire globe. Our cutting-edge web application empowers you to effortlessly access up-to-the-minute weather updates, detailed forecasts, and a wealth of pertinent information for cities worldwide. Explore Weather360 and stay one step ahead with the weather information you need at your fingertips.',
     imgSrc: [
       'assets/images/weather1.png',
       'assets/images/weather2.png',
@@ -70,7 +70,7 @@ const projectInfos = [
     id: 'project4',
     name: 'Coin Mapper',
     description:
-      "CoinMapper is a user-friendly and intuitive budget management application built with Ruby on Rails. This app is designed to assist you in effortlessly managing your finances, helping you track expenses, map income, and gain control over your financial journey. Start your path to financial success today with CoinMapper.",
+      'CoinMapper is a user-friendly and intuitive budget management application built with Ruby on Rails. This app is designed to assist you in effortlessly managing your finances, helping you track expenses, map income, and gain control over your financial journey. Start your path to financial success today with CoinMapper.',
     imgSrc: [
       'assets/images/coinmapper3.png',
       'assets/images/coinmapper1.png',
@@ -86,7 +86,7 @@ const projectInfos = [
     id: 'project5',
     name: 'VECS School',
     description:
-      "VECS School is a course booking platform designed to facilitate the booking of courses by allowing users to specify their city and preferred dates.",
+      'VECS School is a course booking platform designed to facilitate the booking of courses by allowing users to specify their city and preferred dates.',
     imgSrc: [
       'assets/images/vecs-home.png',
       'assets/images/vecs-reserve.png',
@@ -102,7 +102,7 @@ const projectInfos = [
     id: 'project6',
     name: 'Math Wizardry',
     description:
-      "Introducing Math Wizardry: Your one-stop destination for seamless calculations and a daily dose of mathematical inspiration! Math Wizardry is a dynamic Single Page App (SPA) thoughtfully crafted with React, a leading JavaScript library for creating captivating user interfaces. Experience the magic of mathematics with interactive calculations and discover nuggets of wisdom through an array of thought-provoking math-related quotes.",
+      'Introducing Math Wizardry: Your one-stop destination for seamless calculations and a daily dose of mathematical inspiration! Math Wizardry is a dynamic Single Page App (SPA) thoughtfully crafted with React, a leading JavaScript library for creating captivating user interfaces. Experience the magic of mathematics with interactive calculations and discover nuggets of wisdom through an array of thought-provoking math-related quotes.',
     imgSrc: [
       'assets/images/mathwizard4.png',
       'assets/images/mathwizard2.png',
@@ -176,7 +176,7 @@ seeProjectButton.forEach((p, index) => {
       popUp.classList.remove('display-visible');
       document.body.classList.remove('no-scroll');
     });
-    
+
     // Slide controls
     const nextBtn = document.querySelector('.next');
     const prevBtn = document.querySelector('.prev');
