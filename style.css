@@ -28,6 +28,14 @@ a {
   background-size: 30%;
 }
 
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  z-index: 100;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
