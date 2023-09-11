@@ -68,10 +68,10 @@
 <path fill-rule="evenodd" clip-rule="evenodd" d="M336 175H511V350H336V175Z" fill="#FFD4C4"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M423.5 175L511 262.5L423.5 350L336 262.5L423.5 175Z" fill="#E45865"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M423.5 175L511 262.5L423.5 350L336 262.5L423.5 175Z" fill="url(#pattern1)" fill-opacity="0.2" style="mix-blend-mode:overlay"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M423.5 175L511 262.5L423.5 350L336 262.5L423.5 175Z" fill="#FEC35A"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M335.5 0C238.574 0 160 78.5372 160 175.418L511 175.418C511 78.5372 432.426 0 335.5 0Z" fill="#E45865"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M423.5 175L511 262.5L423.5 350L336 262.5L423.5 175Z" fill="#000"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M335.5 0C238.574 0 160 78.5372 160 175.418L511 175.418C511 78.5372 432.426 0 335.5 0Z" fill="#000"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M335.5 0C238.574 0 160 78.5372 160 175.418L511 175.418C511 78.5372 432.426 0 335.5 0Z" fill="url(#pattern2)" fill-opacity="0.2" style="mix-blend-mode:overlay"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M248 305.855C248 330.075 267.63 349.709 291.844 349.709H335.688V305.855C335.688 281.634 316.058 262 291.844 262C267.63 262 248 281.634 248 305.855Z" fill="#98DEDE"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M248 305.855C248 330.075 267.63 349.709 291.844 349.709H335.688V305.855C335.688 281.634 316.058 262 291.844 262C267.63 262 248 281.634 248 305.855Z" fill="#000"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M248 305.855C248 330.075 267.63 349.709 291.844 349.709H335.688V305.855C335.688 281.634 316.058 262 291.844 262C267.63 262 248 281.634 248 305.855Z" fill="url(#pattern3)" fill-opacity="0.2" style="mix-blend-mode:overlay"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1.47429" height="1.47429">
