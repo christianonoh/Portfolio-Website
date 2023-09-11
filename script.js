@@ -22,7 +22,7 @@ const projectInfos = [
     id: 'project1',
     name: 'Travel & Workshop',
     description:
-      'Travel and Workshop is an event website that promotes travel and adventure, while providing opportunities to learn new skills.',
+      'Welcome to Travel and Workshop, a website that brings together travel, adventure, and learning in one seamless platform. Our website allows users to easily register for thrilling events and gain access to detailed information about speakers, event descriptions, and program schedules. We also offer valuable partnerships to enhance your experience. Discover new opportunities for education, adventure, and exploration with our wide range of offerings.',
     imgSrc: [
       'assets/images/travel_workshop1.png',
       'assets/images/travel_workshop2.png',
@@ -86,7 +86,7 @@ const projectInfos = [
     id: 'project5',
     name: 'VECS School',
     description:
-      'VECS School is a course booking platform designed to facilitate the booking of courses by allowing users to specify their city and preferred dates.',
+      'Welcome to VECS School! Our platform is designed to make your learning journey easier and more streamlined. By creating an account, you gain access to a comprehensive suite of features that allow you to track, reserve, and modify your course selections. With just a few clicks, you can explore a wide range of courses and sign up for the ones that align with your learning goals.',
     imgSrc: [
       'assets/images/vecs-home.png',
       'assets/images/vecs-reserve.png',
@@ -111,8 +111,8 @@ const projectInfos = [
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
-    linkLive: 'www.walmart.com',
-    linkSource: 'github.com',
+    linkLive: 'https://mathwizard.onrender.com',
+    linkSource: 'https://github.com/christianonoh/math-wizardry',
   },
 ];
 
@@ -167,8 +167,8 @@ seeProjectButton.forEach((p, index) => {
         ${projectInfos[index].description}
         </p>
         <div class="pop-btns">
-          <button class="see-project more-info light-btn"><a href="${projectInfos[index].linkLive}" target="_blank">See Live <i class="fa fa-external-link" aria-hidden="true"></i></a> </button>
-          <button class="see-project light-btn"><a href="${projectInfos[index].linkSource}" target="_blank">See Live <i class="fa fa-github" aria-hidden="true"></i></a> </button>
+          <a href="${projectInfos[index].linkLive}" target="_blank" class="see-project more-info light-btn" role="button">Demo <i class="fa fa-external-link" aria-hidden="true"></i></a> 
+          <a href="${projectInfos[index].linkSource}" target="_blank" class="see-project light-btn" role="button">Repo <i class="fa fa-github" aria-hidden="true"></i></a> 
         </div>
       </div>`;
     const closePop = document.querySelector('.close-pop');
@@ -274,7 +274,7 @@ const storedData = JSON.parse(localStorage.getItem('formData'));
 if (storedData) {
   fullName.value = storedData.name;
   emailAddress.value = storedData.email;
-  userMessage.value = storedData.usermessage;
+  // userMessage.value = storedData.usermessage;
 }
 
 // Save formData
