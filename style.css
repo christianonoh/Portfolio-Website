@@ -687,7 +687,7 @@ a {
   }
 
   .outlaw {
-    background-image: url(assets/images/pic.png);
+    background-image: url(assets/images/pic.webp);
     background-size: cover;
     width: 50%;
     margin: 0;
