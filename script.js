@@ -24,10 +24,10 @@ const projectInfos = [
     description:
       'Welcome to Travel and Workshop, a website that brings together travel, adventure, and learning in one seamless platform. Our website allows users to easily register for thrilling events and gain access to detailed information about speakers, event descriptions, and program schedules. We also offer valuable partnerships to enhance your experience. Discover new opportunities for education, adventure, and exploration with our wide range of offerings.',
     imgSrc: [
-      'assets/images/travel_workshop1.png',
-      'assets/images/travel_workshop2.png',
-      'assets/images/travel_workshop3.png',
-      'assets/images/travel_workshop4.png',
+      'assets/images/travel_workshop1.webp',
+      'assets/images/travel_workshop2.webp',
+      'assets/images/travel_workshop3.webp',
+      'assets/images/travel_workshop4.webp',
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
