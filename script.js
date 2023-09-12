@@ -40,10 +40,10 @@ const projectInfos = [
     description:
       'Film Fussion is an innovative web-based platform that serves as a rich treasure trove of TV shows and movies. This dynamic website empowers users to not only explore an extensive database but also actively engage with their favorite films and shows. Here, users can effortlessly rate, comment, and like their favorite movies, fostering a vibrant community of movie aficionados. Join us to discover, discuss, like, and dive deeper into the world of entertainment!',
     imgSrc: [
-      'assets/images/filmfussion1.png',
-      'assets/images/filmfussion4.png',
-      'assets/images/filmfussion2.png',
-      'assets/images/filmfussion3.png',
+      'assets/images/filmfussion1.webp',
+      'assets/images/filmfussion4.webp',
+      'assets/images/filmfussion2.webp',
+      'assets/images/filmfussion3.webp',
     ],
     technologies: ['HTML/CSS', 'Webpack', 'Javascript'],
     seeProject: 'See Project',
@@ -72,10 +72,10 @@ const projectInfos = [
     description:
       'CoinMapper is a user-friendly and intuitive budget management application built with Ruby on Rails. This app is designed to assist you in effortlessly managing your finances, helping you track expenses, map income, and gain control over your financial journey. Start your path to financial success today with CoinMapper.',
     imgSrc: [
-      'assets/images/coinmapper3.png',
-      'assets/images/coinmapper1.png',
-      'assets/images/coinmapper2.png',
-      'assets/images/coinmapper4.png',
+      'assets/images/coinmapper3.webp',
+      'assets/images/coinmapper1.webp',
+      'assets/images/coinmapper2.webp',
+      'assets/images/coinmapper4.webp',
     ],
     technologies: ['HTML/SCSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
@@ -88,10 +88,10 @@ const projectInfos = [
     description:
       'Welcome to VECS School! Our platform is designed to make your learning journey easier and more streamlined. By creating an account, you gain access to a comprehensive suite of features that allow you to track, reserve, and modify your course selections. With just a few clicks, you can explore a wide range of courses and sign up for the ones that align with your learning goals.',
     imgSrc: [
-      'assets/images/vecs-home.png',
-      'assets/images/vecs-reserve.png',
-      'assets/images/vecs-login.png',
-      'assets/images/vecs-courses.png',
+      'assets/images/vecs-home.webp',
+      'assets/images/vecs-reserve.webp',
+      'assets/images/vecs-login.webp',
+      'assets/images/vecs-courses.webp',
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'React'],
     seeProject: 'See Project',
@@ -104,10 +104,10 @@ const projectInfos = [
     description:
       'Introducing Math Wizardry: Your one-stop destination for seamless calculations and a daily dose of mathematical inspiration! Math Wizardry is a dynamic Single Page App (SPA) thoughtfully crafted with React, a leading JavaScript library for creating captivating user interfaces. Experience the magic of mathematics with interactive calculations and discover nuggets of wisdom through an array of thought-provoking math-related quotes.',
     imgSrc: [
-      'assets/images/mathwizard4.png',
-      'assets/images/mathwizard2.png',
-      'assets/images/mathwizard3.png',
-      'assets/images/mathwizard4.png',
+      'assets/images/mathwizard4.webp',
+      'assets/images/mathwizard2.webp',
+      'assets/images/mathwizard3.webp',
+      'assets/images/mathwizard4.webp',
     ],
     technologies: ['HTML/CSS', 'Ruby on Rails', 'Javascript'],
     seeProject: 'See Project',
