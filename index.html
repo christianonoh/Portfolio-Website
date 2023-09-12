@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="/assets/images/favicon.png" type="image/png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is a portfolio of a fullstack web developer">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <title>Christian Onoh | Fullstack Developer</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a portfolio of a fullstack web developer">
+    <title>Christian Onoh | Fullstack Developer</title>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Critical CSS (inline) -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+      }
+    </style>
+  
+    <!-- Fonts (preload and asynchronous) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
+  
+    <!-- Font Awesome (preload and asynchronous) -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></noscript>
+  
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/images/favicon.png" type="image/png">
+    
+    <!-- Stylesheets (preload and asynchronous) -->
+    <link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="style.css"></noscript>
+  </head>
+  
+  
 <body>
   <main class="wrapper">
     <header class="main-header">
@@ -137,7 +161,7 @@
       <a href="https://twitter.com/OnohChristian" target="_blank" rel="noopener"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
       <a href="https://www.linkedin.com/in/christianonoh/" target="_blank" rel="noopener"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
       <a href="https://medium.com/@chibyk5000" target="_blank" rel="noopener"> <i class="fa fa-medium" aria-hidden="true"></i></a>
-      <a href="#" target="_blank" rel="noopener"> <i class="fa fa-hand-peace-o" aria-hidden="true"></i></a>
+      <a href="https://wellfound.com/u/christianonoh" target="_blank" rel="noopener"> <i class="fa fa-hand-peace-o" aria-hidden="true"></i></a>
     </div>
   </footer>
   </main>
