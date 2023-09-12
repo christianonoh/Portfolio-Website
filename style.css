@@ -169,6 +169,7 @@ a {
   background-color: var(--dark);
   justify-content: space-around;
   position: relative;
+  margin-top: 2rem;
 }
 
 .project-img {
@@ -233,17 +234,17 @@ a {
 }
 
 .bg-blue {
-  background-color: var(--tertiary1);
+  background-color: var(--dark);
   background-image: url(assets/images/ic_languages_mob.svg);
 }
 
 .bg-red {
-  background-color: var(--tertiary2);
+  background-color: var(--dark);
   background-image: url(assets/images/Group\ 18.png);
 }
 
 .bg-yellow {
-  background-color: var(--tertiary3);
+  background-color: var(--dark);
   background-image: url(assets/images/ic_skills.png);
 }
 
@@ -750,6 +751,13 @@ a {
     background-position: 100% 100%;
   }
 
+  .about-title {
+    font-weight: 800;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: var(--white);
+  }
+
   .about-intro .notes,
   .about-intro .my-button,
   .about-intro .section-header {
@@ -914,6 +922,7 @@ a {
 
   .project {
     overflow: hidden;
+    margin-top: unset;
   }
 
   .project:hover .project-hover {
@@ -1023,5 +1032,12 @@ a {
 
   .popup-container .project-name {
     font-size: 2.2rem;
+  }
+
+  .about-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--white);
   }
 }
