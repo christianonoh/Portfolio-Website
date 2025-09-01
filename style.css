@@ -8,30 +8,54 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
-  background: #fff;
+  color: #e1e5e9;
+  background: #0d1117;
 }
 
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(13, 17, 23, 0.95);
   backdrop-filter: blur(10px);
-  padding: 1rem 2rem;
   z-index: 100;
+  border-bottom: 1px solid #30363d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-nav a {
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem 2rem;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
   text-decoration: none;
-  color: #333;
-  margin: 0 1rem;
+  color: #e1e5e9;
   font-weight: 500;
   transition: color 0.3s;
+  padding: 4px 8px;
+  border: none;
+  display: inline;
 }
 
-nav a:hover {
-  color: #f8f9fa;
+.nav-links a:hover {
+  color: #eae8ee;
 }
 
 section {
@@ -47,40 +71,40 @@ section {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  color: #333;
+  color: #f0f6fc;
 }
 
 h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #333;
+  color: #f0f6fc;
 }
 
 h3 {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  color: #007acc;
+  color: #8b5cf6;
 }
 
 p {
   font-size: 1.1rem;
   margin-bottom: 2rem;
-  color: #666;
+  color: #8b949e;
 }
 
 a {
-  color: #007acc;
+  color: #8b5cf6;
   text-decoration: none;
   padding: 0.8rem 1.5rem;
-  border: 2px solid #007acc;
+  border: 2px solid #8b5cf6;
   border-radius: 5px;
   display: inline-block;
   transition: all 0.3s;
 }
 
 a:hover {
-  background: #007acc;
-  color: #fff;
+  background: #8b5cf6;
+  color: #0d1117;
 }
 
 .projects-grid {
@@ -92,19 +116,20 @@ a:hover {
 
 .project-card {
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #161b22;
   border-radius: 8px;
-  border-left: 4px solid #007acc;
+  border-left: 4px solid #8b5cf6;
+  border: 1px solid #30363d;
 }
 
 .project-card h3 {
-  color: #333;
+  color: #f0f6fc;
   margin-bottom: 1rem;
 }
 
 .project-card p {
   margin-bottom: 1rem;
-  color: #666;
+  color: #8b949e;
   font-size: 0.95rem;
 }
 
@@ -115,8 +140,8 @@ a:hover {
 }
 
 .tech-stack span {
-  background: #007acc;
-  color: white;
+  background: #8b5cf6;
+  color: #ffffff;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.8rem;
@@ -132,8 +157,9 @@ a:hover {
 
 .skills div {
   padding: 1.5rem;
-  background: #f8f9fa;
+  background: #161b22;
   border-radius: 8px;
+  border: 1px solid #30363d;
 }
 
 form {
@@ -146,20 +172,22 @@ form {
 
 input, textarea {
   padding: 0.8rem;
-  border: 2px solid #ddd;
+  border: 2px solid #30363d;
   border-radius: 5px;
   font-size: 1rem;
   transition: border-color 0.3s;
+  background: #0d1117;
+  color: #e1e5e9;
 }
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #007acc;
+  border-color: #8b5cf6;
 }
 
 button {
-  background: #007acc;
-  color: #fff;
+  background: #8b5cf6;
+  color: #ffffff;
   border: none;
   padding: 0.8rem 1.5rem;
   border-radius: 5px;
@@ -169,7 +197,7 @@ button {
 }
 
 button:hover {
-  background: #005c99;
+  background: #7c3aed;
 }
 
 .social-links {
@@ -180,18 +208,19 @@ button:hover {
 
 .social-links a {
   padding: 0.5rem 1rem;
-  border: 1px solid #ddd;
+  border: 1px solid #30363d;
 }
 
 .toast {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background: #28a745;
-  color: white;
+  background: #238636;
+  color: #f0f6fc;
   padding: 1rem 1.5rem;
   border-radius: 5px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid #2ea043;
   transform: translateX(400px);
   opacity: 0;
   transition: all 0.3s ease;
