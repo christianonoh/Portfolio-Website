@@ -2,156 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="icon" href="/assets/images/favicon.png" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="This is a portfolio of a fullstack web developer">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Christian Onoh | Developer</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <title>Christian Onoh | Fullstack Developer</title>
 </head>
 
 <body>
-  <main class="wrapper">
-    <header class="main-header">
-      <nav class="navbar">
-        <div class="logo display-flex-column"><a href="#home"><img src="./assets/images/logo.png" alt="logo" height="48px" width="70.5px"></a></div>
-        <div class="open-menu display-flex-column"><i class="fa fa-bars fa-xl" aria-hidden="true"></i></div>
-        <ul class="menu-items flex-list">
-          <li class="navbar-links display-flex-column"><a href="#projects">Portfolio</a></li>
-          <li class="navbar-links display-flex-column"><a href="#about">About</a></li>
-          <li class="navbar-links display-flex-column"><a href="#contact">Contact</a></li>
-          <div class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></div>
-        </ul>
-      </nav>
-    </header>
- <section id="home" class="section-title vw-10-margin">
-      <div class="intro display-flex-column">
-        <header >
-          <h1 class="section-header" id="my-name">Christian <br> Onoh</h1>
-        </header>
-        <p class="notes intro-notes">Hello! I'm a skilled full-stack developer with a focus on high-performance, design and user experience. <br><br> If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-        <a href="#contact" class="my-button dark-btn" role="button">Start collaboration</a>
-      </div>
-      <div class="outlaw">
-        <img class="project-img" src="assets/images/pic3.webp" alt="">
-      </div>
-    </section>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section id ="projects" class="work-wrapper vw-10-margin">
-      <header id="project-header">
-        <h1 class="section-header">Projects</h1>
-      </header>
-      <div id="project-dummy1"></div>
-      <div id="project-dummy2"></div>
-      <div id="project-dummy3"></div>
-    </section>
-    
+  <section id="home">
+    <h1>Christian Onoh</h1>
+    <p>Full-stack developer focused on clean code and user experience.</p>
+    <a href="#contact">Get in touch</a>
+  </section>
 
-    <!-- Popup  -->
-    <section class="popup">
-    </section>
-
-<!-- About  -->
-    <section id = "about" class="section-title about vw-10-margin">
-      <div class="about-intro display-flex-column">
-        <header>
-          <h1 class="section-header vw-2-margin">About</h1>
-        </header>
-        <p class="notes">I'm a problem solver with a Bachelor's degree in Industrial Chemistry. My experience in graphics design taught me skills in user-centric design thinking, creativity, and collaboration. <br><br>
-          As a full-stack developer, I have a thorough understanding of software development from idea to deployment. I can bring value to your organization through my skills and drive to solve problems.</p>
-        <div class="socials">
-          <a href="mailto:chibyk5000@gmail.com" target="_blank" rel="noopener"> <i class="fa fa-envelope" aria-hidden="true"></i></a>
-          <a href="https://github.com/christianonoh" target="_blank" rel="noopener"> <i class="fa fa-github" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/OnohChristian" target="_blank" rel="noopener"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/christianonoh/" target="_blank" rel="noopener"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-          <a href="https://medium.com/@chibyk5000" target="_blank" rel="noopener"> <i class="fa fa-medium" aria-hidden="true"></i></a>
-          <a href="https://wellfound.com/u/christianonoh" target="_blank" rel="noopener"> <i class="fa fa-hand-peace-o" aria-hidden="true"></i></a>
-        </div>
-        <a href="/assets/docs/Christian_Onoh_Resume.pdf" download="Christian_Onoh_Resume.pdf" class="my-button dark-btn" role="button">
-          <span> Get my Resume <i class="fa fa-download" aria-hidden="true"></i></span>
-        </a>
-      </div>
-      <div class="about-info-wrapper display-flex-column">
-        <div class="about-info bg-blue">
-          <p class="about-title">Languages</p>
-          <ul>
-            <li>JavaScript</li>
-            <li>Ruby</li>
-            <li>Python</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-        <div class="about-info bg-red">
-          <p class="about-title">Frameworks & Lib</p>
-          <ul>
-            <li>React</li>
-            <li>Ruby on Rails</li>
-            <li>Bootstrap</li>
-            <li>Next js</li>
-          </ul>
-        </div>
-        <div class="about-info bg-yellow">
-          <div class="about-info-content">
-            <p class="about-title">Skills</p>
-            <ul>
-              <li>Github</li>
-                <li>Codepen</li>
-                <li>Terminal</li>
-                <li>Codekit</li>
-            </ul>
-          </div>
-        </div>
-        <div class="about-info bg-empty">
-          
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>CLI Calculator</h3>
+        <p>A command-line calculator built with C programming language. Features basic arithmetic operations with a clean terminal interface.</p>
+        <div class="tech-stack">
+          <span>C</span>
+          <span>CLI</span>
         </div>
       </div>
-    </section> 
-
-    <!-- Contact  -->
-    <section id="contact" class="section-title contact display-flex-column">
-      <header class="display-flex-column">
-        <h1 class="section-header">Get started</h1>
-      </header>
-      <p class="notes">Have a brilliant idea you're ready to bring to life? Let's make it happen! Reach out to me today, and together, we'll turn your vision into reality. 😎</p>
-      <form class="contact-form" id="contact-form" action="https://formspree.io/f/mwkjorkk" method="POST" target="_blank">
-        <ul>
-          <li class="form-items display-flex-column">
-            <input class="border-radius" type="text" placeholder="Your name" maxlength="30" name="name">
-            <small></small>
-          </li>
-          <li class="form-items display-flex-column">
-            <input class="border-radius" type="text" placeholder="Your email" name="email"/>
-            <small></small>
-          </li>
-          <li class="form-items display-flex-column">
-            <textarea class="border-radius" placeholder="Enter your message here" maxlength="500" rows="6" name="user-message"></textarea>
-            <small></small>
-          </li>
-          <li class="form-items">
-            <button type="submit" class="my-button dark-btn"> Start collaboration </button>
-          </li>
-        </ul>
-      </form>
-    </section>
-
-<!-- Footer -->
-  <footer class="footer">
-    <p class="footy-note"><a href="/assets/docs/resume.pdf" download="Christian_Onoh.pdf" rel="noopener">Get my Resume <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
-    <div class="socials">
-      <a href="https://stackoverflow.com/users/8770112/chibyk" target="_blank" rel="noopener"> <i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-      <a href="https://github.com/christianonoh" target="_blank" rel="noopener"> <i class="fa fa-github" aria-hidden="true"></i></a>
-      <a href="https://twitter.com/OnohChristian" target="_blank" rel="noopener"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="https://www.linkedin.com/in/christianonoh/" target="_blank" rel="noopener"> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-      <a href="https://medium.com/@chibyk5000" target="_blank" rel="noopener"> <i class="fa fa-medium" aria-hidden="true"></i></a>
-      <a href="https://wellfound.com/u/christianonoh" target="_blank" rel="noopener"> <i class="fa fa-hand-peace-o" aria-hidden="true"></i></a>
+      
+      <div class="project-card">
+        <h3>Ajo</h3>
+        <p>A monthly contribution management app built in C. Helps groups manage rotating savings and credit associations (ROSCAs) with member tracking and contribution calculations.</p>
+        <div class="tech-stack">
+          <span>C</span>
+          <span>Data Structures</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3>Simple Interest Calculator</h3>
+        <p>A straightforward calculator for computing simple interest on loans and investments. Built with C for educational purposes.</p>
+        <div class="tech-stack">
+          <span>C</span>
+          <span>Mathematics</span>
+        </div>
+      </div>
     </div>
-  </footer>
-  </main>
-  <script src="script.js">
-  </script>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I'm a problem solver with experience in web development and systems programming. I enjoy creating digital solutions that make a difference.</p>
+    <div class="skills">
+      <div>
+        <h3>Languages</h3>
+        <p>C, HTML, CSS, JavaScript</p>
+      </div>
+      <div>
+        <h3>Skills</h3>
+        <p>Problem Solving, Git, Terminal</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Let's work together on your next project!</p>
+    <form id="contact-form" action="https://formspree.io/f/mwkjorkk" method="POST">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    
+    <div id="toast" class="toast">Message sent successfully!</div>
+    <div class="social-links">
+      <a href="mailto:chibyk5000@gmail.com">Email</a>
+      <a href="https://github.com/christianonoh" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/christianonoh/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>

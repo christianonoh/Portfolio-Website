@@ -1,123 +1,50 @@
-# 📗 Table of Contents
+# Portfolio Website
 
-- [📖 About the Project](#about-project)
-  - [🛠️ Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+A clean, minimal portfolio website showcasing my work as a developer.
 
-<!-- PROJECT DESCRIPTION -->
+## Features
 
-# 📖 My Portfolio Website (Mobile) <a name="about-project"></a>
+- **Clean Design**: Simple, modern interface focused on content
+- **Projects Showcase**: Highlights of my C programming projects including CLI Calculator, Ajo contribution management app, and Simple Interest Calculator
+- **Contact Form**: Integrated form with toast notifications powered by Formspree
+- **Responsive**: Works seamlessly across all devices
+- **Fast Loading**: Minimal code, no external dependencies
 
-**My Portfolio Website** is a simple personal portfolio website that provides information about what I do, what services I may offer, and how to contact me or my company.
-## 🛠️ Built With <a name="built-with"></a>
+## Tech Stack
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="">HTML</a></li>
-   <li><a href="">CSS</a></li>   
-  </ul>
-</details>
+- **HTML5**: Semantic structure
+- **CSS3**: Modern styling with flexbox and grid
+- **JavaScript**: Smooth scrolling and form handling
+- **Formspree**: Contact form backend
 
-### Tech Stack <a name="tech-stack"></a>
+## Projects Featured
 
-<!-- Features -->
+1. **CLI Calculator** - Command-line calculator built with C
+2. **Ajo** - Monthly contribution management app in C
+3. **Simple Interest Calculator** - Financial calculator for educational purposes
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Getting Started
 
-<!-- LIVE DEMO -->
+1. Clone the repository:
+```bash
+git clone https://github.com/christianonoh/Portfolio-Website.git
+```
 
-## 🚀 Live Demo <a name="live-demo"></a>
+2. Open `index.html` in your browser
 
-- https://christianonoh.github.io/Portfolio-Website/
+That's it! No build process or dependencies required.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Live Demo
 
-<!-- GETTING STARTED -->
+Visit: [https://christianonoh.github.io/Portfolio-Website/](https://christianonoh.github.io/Portfolio-Website/)
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-- have installed a code editor.
-
-### Setup
-
-Clone this repository to your desired folder:
-
-cd my-folder [https://github.com/christianonoh/Portfolio-Website.git]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-👤 **Author**
+## Contact
 
 - GitHub: [@christianonoh](https://github.com/christianonoh)
 - Twitter: [@onohchristian](https://twitter.com/OnohChristian)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/christianonoh/)
+- LinkedIn: [Christian Onoh](https://www.linkedin.com/in/christianonoh/)
+- Email: chibyk5000@gmail.com
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-
-## 🔭 Future Features <a name="future-features"></a>
-- Responsiveness
-- Contact Form
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐ Show your support <a name="support"></a>
-
-If you like this project follow and add a star.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank my coding partners...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
+## License
 
 This project is [MIT](./LICENSE) licensed.
